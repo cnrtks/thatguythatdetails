@@ -1,0 +1,15 @@
+.App {
+  background-color: var(--brown-dark);
+  color: var(--tan-light);
+}
+
+.table,
+Tabs,
+a,
+.nav-tabs .nav-link:hover {
+  color: var(--tan);
+}
+
+.nav-tabs .nav-link.active {
+  background-color: var(--tan);
+}

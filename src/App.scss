@@ -1,0 +1,121 @@
+:root {
+  --brown: #343233;
+  --brown-dark: #231f20;
+  --brown-darker: #1f1b1c;
+  --tan: #98876b;
+  --tan-light: #c3ab87;
+  --blue: #0078d7;
+  --orange: #ff5e00;
+  --dark: #414756;
+  --gray: #a5abbd;
+  --light: #f5f9ff;
+}
+
+@font-face {
+  font-family: recharge;
+  src: url(assets/recharge-webfont.woff);
+}
+.App {
+  text-align: center;
+  background-color: var(--dark);
+  color: var(--light);
+  background-image: url("http://thatguythatdetails.com/assets/favicon.svg");
+  background-attachment: fixed;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 20%;
+}
+
+.App-logo {
+  height: 3em;
+  // transform: rotate(-90deg);
+  // background: rgba(255, 255, 255, 0.13);
+  // background: linear-gradient(
+  //   to right,
+  //   rgba(255, 255, 255, 0.13) 0%,
+  //   rgba(255, 255, 255, 0.13) 77%,
+  //   rgba(255, 255, 255, 0.5) 92%,
+  //   rgba(255, 255, 255, 0) 100%
+  // );
+}
+
+.brand {
+  font-family: recharge;
+  font-size: 3vw;
+}
+
+header h1 {
+  background: linear-gradient(
+    rgba(0, 120, 215, 1) 22%,
+    rgba(0, 0, 0, 1) 28%,
+    rgba(0, 120, 215, 1) 33%,
+    // rgba(244, 249, 255, 1) 42%,
+    // rgba(0, 24, 97, 1) 49%,
+    rgba(244, 249, 255, 1) 55%,
+    rgba(0, 24, 97, 1) 62%,
+    // rgba(0, 0, 0, 1) 81%,
+    rgba(0, 120, 215, 1) 82%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-size: 7vw;
+  backdrop-filter: grayscale(80%);
+}
+
+.App-header {
+  background-color: var(--brown-darker);
+  background-image: url("https://thatguythatdetails.com/assets/favicon.svg");
+  background-repeat: no-repeat;
+  background-size: 40vw;
+  background-position-x: 5%;
+  background-position-y: 50%;
+  font-family: recharge;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-footer {
+  background-color: var(--brown-darker);
+}
+
+h1,
+h2,
+th {
+  font-family: recharge;
+}
+
+td,
+th {
+  color: var(--light);
+}
+
+#services {
+  // background-image: url('https://thatguythatdetails.com/assets/12.webp');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://thatguythatdetails.com/assets/12.webp");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 25%;
+}
+
+#pricing {
+  backdrop-filter: blur(10px);
+}
+
+th {
+  font-size: 3vw;
+}
+
+.orange{
+  color: var(--orange);
+}
